@@ -7,6 +7,8 @@ BlazorIcons is font icon component library, which is using **IcoMoon**. Demo:htt
 | BlazorIcons.Light | Contains some common font icons                              | [![Nuget](https://img.shields.io/nuget/v/BlazorIcons.Light)](https://www.nuget.org/packages/BlazorIcons.Light/) |
 | BlazorIcons.Full  | Include all font icons of BlazorIcons                        | [![Nuget](https://img.shields.io/nuget/v/BlazorIcons.Full)](https://www.nuget.org/packages/BlazorIcons.Full/) |
 
+Attention: if you are using BlazorIcons.Full, it's large to website!
+
 # Api
 
 | **name**  | **type** | **default** | **describe**                         |
