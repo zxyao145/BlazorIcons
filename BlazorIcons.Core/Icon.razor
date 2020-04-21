@@ -1,0 +1,12 @@
+﻿@inherits IconBaseOption
+
+<CascadingValue Value="@this">
+    <IconBase IconName="@Name"></IconBase>
+</CascadingValue>
+
+@code{
+
+    [Parameter] 
+    public string Name { get; set; }
+
+}

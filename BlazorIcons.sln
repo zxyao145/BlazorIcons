@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30002.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorIcons.Core", "BlazorIcons.Core\BlazorIcons.Core.csproj", "{90C46F27-572B-4FEF-A260-7F06CB5F5EA0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorIcons.Light", "BlazorIcons.Light\BlazorIcons.Light.csproj", "{535A9249-1660-4101-A931-BC953BDF2BC3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Support", "Support", "{45D23643-4655-413A-B1C0-5A95C6C9903A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IconNameParse", "IconNameParse\IconNameParse.csproj", "{8622E470-48DF-475A-9183-7D0559A47164}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorIcons.Full", "BlazorIcons.Full\BlazorIcons.Full.csproj", "{28549EE6-3FFB-4578-A58C-527376C08533}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeneratePage", "GeneratePage\GeneratePage.csproj", "{70B4BB2C-F30F-4406-93B6-1621D5AD7DE7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorIcons.Sample", "BlazorIcons.Sample\BlazorIcons.Sample.csproj", "{66C58E60-9F50-4787-B1A1-261E3E9E966B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90C46F27-572B-4FEF-A260-7F06CB5F5EA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90C46F27-572B-4FEF-A260-7F06CB5F5EA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90C46F27-572B-4FEF-A260-7F06CB5F5EA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90C46F27-572B-4FEF-A260-7F06CB5F5EA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{535A9249-1660-4101-A931-BC953BDF2BC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{535A9249-1660-4101-A931-BC953BDF2BC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{535A9249-1660-4101-A931-BC953BDF2BC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{535A9249-1660-4101-A931-BC953BDF2BC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8622E470-48DF-475A-9183-7D0559A47164}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8622E470-48DF-475A-9183-7D0559A47164}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8622E470-48DF-475A-9183-7D0559A47164}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8622E470-48DF-475A-9183-7D0559A47164}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28549EE6-3FFB-4578-A58C-527376C08533}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28549EE6-3FFB-4578-A58C-527376C08533}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28549EE6-3FFB-4578-A58C-527376C08533}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28549EE6-3FFB-4578-A58C-527376C08533}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70B4BB2C-F30F-4406-93B6-1621D5AD7DE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70B4BB2C-F30F-4406-93B6-1621D5AD7DE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70B4BB2C-F30F-4406-93B6-1621D5AD7DE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70B4BB2C-F30F-4406-93B6-1621D5AD7DE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66C58E60-9F50-4787-B1A1-261E3E9E966B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66C58E60-9F50-4787-B1A1-261E3E9E966B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66C58E60-9F50-4787-B1A1-261E3E9E966B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66C58E60-9F50-4787-B1A1-261E3E9E966B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8622E470-48DF-475A-9183-7D0559A47164} = {45D23643-4655-413A-B1C0-5A95C6C9903A}
+		{70B4BB2C-F30F-4406-93B6-1621D5AD7DE7} = {45D23643-4655-413A-B1C0-5A95C6C9903A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {18924DB9-1C53-400D-8709-069ABA33DD80}
+	EndGlobalSection
+EndGlobal
