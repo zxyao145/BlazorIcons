@@ -1,0 +1,123 @@
+﻿@page "/"
+@using System.Drawing
+
+<div class="container-fluid">
+    <div class="row d-block">
+        <div class="jumbotron">
+            BlazorIcons is font icon component library, which is using <b>IcoMoon</b>.
+            <br><br>
+            At first, add css to the html.
+            <br>
+            &lt;link href="_content/BlazorIcons.Core/blazorIcons.css" rel="stylesheet" /&gt;
+        </div>
+    </div>
+
+    <div class="row d-block">
+        <h1>just using BlazorIcons.Core </h1>
+        <p>Specify icon by <b>Name</b>. You can find its corresponding value in <b>IconName</b> below each icon example in page <i>BlazorIcons.Light</i> and <i>BlazorIcons.Full</i></p>
+
+        <BiCell Name="Home" Code="&lt;Icon Name=&quot;home&quot; FontSize=&quot;36&quot;&gt;&lt;/Icon&gt;" IconName="home">
+            <Icon Name="home" FontSize="36"></Icon>
+        </BiCell>
+    </div>
+
+    <div class="row">
+        <h1>Using components (Install BlazorIcons.Light or BlazorIcons.Full)</h1>
+
+        <p>
+            You can find the most basic component code below each example in page <i>BlazorIcons.Light</i> and <i>BlazorIcons.Full</i>.
+            As shown in blue below: &lt;BiHome/&gt;
+        </p>
+
+        <BiCell Name="BiHome"
+                IconName="home"
+                Code="&lt;BiHome /&gt;">
+            <BiHome />
+        </BiCell>
+    </div>
+
+    <div class="row">
+        <h1>Api</h1>
+        <BiCell Name="BiHome"
+                Width="null"
+                IconName="home"
+                Code="&lt;BiHome Color=&quot;Color.FromArgb(255, 193, 7)&quot; BgColor=&quot;Color.FromArgb(180, 0, 0, 0)&quot; ClassName=&quot;custom-class-name&quot; Height=&quot;60&quot; Width=&quot;60&quot; FontSize=&quot;24&quot; Rotate=&quot;45&quot; IsSpin=&quot;true&quot; Style=&quot;padding: 16px;&quot; /&gt;
+
+.custom-class-name { border: 4px solid #000; }">
+            <BiHome Color="Color.FromArgb(255, 193, 7)" BgColor="Color.FromArgb(180, 0, 0, 0)" ClassName="custom-class-name" Height="60" Width="60" FontSize="24" Rotate="45" IsSpin="true" Style="padding: 16px;" />
+        </BiCell>
+
+        <br/>
+        <h2>Api Table List</h2>
+        <table class="table table-striped table-bordered">
+            <thead>
+                <tr>
+                    <th><strong>name</strong></th>
+                    <th><strong>type</strong></th>
+                    <th><strong>default</strong></th>
+                    <th><strong>describe</strong></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>ClassName</td>
+                    <td>string</td>
+                    <td>null</td>
+                    <td>html element's class attribute</td>
+                </tr>
+                <tr>
+                    <td>IsSpin</td>
+                    <td>bool</td>
+                    <td>false</td>
+                    <td>Controls whether the icon spin</td>
+                </tr>
+                <tr>
+                    <td>Style</td>
+                    <td>string</td>
+                    <td>null</td>
+                    <td>html element's style attribute</td>
+                </tr>
+                <tr>
+                    <td>FontSize</td>
+                    <td>float?</td>
+                    <td>null</td>
+                    <td>icon font size</td>
+                </tr>
+                <tr>
+                    <td>Width</td>
+                    <td>float?</td>
+                    <td>null</td>
+                    <td>icon container's width</td>
+                </tr>
+                <tr>
+                    <td>Height</td>
+                    <td>float?</td>
+                    <td>null</td>
+                    <td>icon container's height</td>
+                </tr>
+                <tr>
+                    <td>Color</td>
+                    <td>Color?</td>
+                    <td>null</td>
+                    <td>icon css value of color</td>
+                </tr>
+                <tr>
+                    <td>BgColor</td>
+                    <td>Color?</td>
+                    <td>null</td>
+                    <td>icon css value of background-color</td>
+                </tr>
+                <tr>
+                    <td>Rotate</td>
+                    <td>float?</td>
+                    <td>null</td>
+                    <td>Degree of rotation of icon container</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+
+
