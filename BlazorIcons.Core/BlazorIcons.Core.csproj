@@ -1,42 +1,40 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
 
-  <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
-    <RazorLangVersion>3.0</RazorLangVersion>
-    <RootNamespace>BlazorIcons</RootNamespace>
-    <AssemblyVersion>0.1.0.0</AssemblyVersion>
-    <FileVersion>0.1.0.0</FileVersion>
-    <Version>0.1.2</Version>
-    <PackageId>BlazorIcons.Core</PackageId>
-    <Authors>zxyao</Authors>
-    <PackageTags>Blazor;Font Icon;BlazorIcons;</PackageTags>
-    <Company></Company>
-    <RepositoryUrl>https://github.com/zxyao145/BlazorIcons</RepositoryUrl>
-    <Description>
-      a blazor Font Icon component library core, which is using IconMoon 
-    </Description>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net5.0</TargetFramework>
+		<RootNamespace>BlazorIcons</RootNamespace>
+		<AssemblyVersion>1.0.0.0</AssemblyVersion>
+		<FileVersion>1.0.0.0</FileVersion>
+		<Version>1.0.0</Version>
+		<PackageId>BlazorIcons.Core</PackageId>
+		<Authors>zxyao</Authors>
+		<PackageTags>Blazor;Font Icon;BlazorIcons;</PackageTags>
+		<Company></Company>
+		<RepositoryUrl>https://github.com/zxyao145/BlazorIcons</RepositoryUrl>
+		<Description>
+			a blazor Font Icon component library core, which is using IconMoon
+		</Description>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <Compile Remove="wwwroot\blazor-icon-font\**" />
-    <Content Remove="wwwroot\blazor-icon-font\**" />
-    <EmbeddedResource Remove="wwwroot\blazor-icon-font\**" />
-    <None Remove="wwwroot\blazor-icon-font\**" />
-  </ItemGroup>
+	<ItemGroup>
+		<Compile Remove="wwwroot\blazor-icon-font\**" />
+		<Content Remove="wwwroot\blazor-icon-font\**" />
+		<EmbeddedResource Remove="wwwroot\blazor-icon-font\**" />
+		<None Remove="wwwroot\blazor-icon-font\**" />
+	</ItemGroup>
 
-  <ItemGroup>
-    <Content Remove="wwwroot\blazorIcons.css.map" />
-    <Content Remove="wwwroot\package-lock.json" />
-  </ItemGroup>
+	<ItemGroup>
+		<Content Remove="wwwroot\blazorIcons.css.map" />
+		<Content Remove="wwwroot\package-lock.json" />
+	</ItemGroup>
 
-  <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Components" Version="3.1.3" />
-    <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="3.1.3" />
-  </ItemGroup>
-  <PropertyGroup>
-    <DefaultItemExcludes>
-      $(DefaultItemExcludes);wwwroot\node_modules\*;wwwroot\blazor-icon-font;wwwroot\blazor-icon-font.zip;wwwroot\gulpfile.js;wwwroot\package.json;
-      wwwroot\*.scss;
-    </DefaultItemExcludes>
-  </PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="5.0.4" />
+	</ItemGroup>
+	<PropertyGroup>
+		<DefaultItemExcludes>
+			$(DefaultItemExcludes);wwwroot\node_modules\*;wwwroot\blazor-icon-font;wwwroot\blazor-icon-font.zip;wwwroot\gulpfile.js;wwwroot\package.json;
+			wwwroot\*.scss;
+		</DefaultItemExcludes>
+	</PropertyGroup>
 </Project>
