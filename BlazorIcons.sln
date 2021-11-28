@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30002.166
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorIcons.Core", "BlazorIcons.Core\BlazorIcons.Core.csproj", "{90C46F27-572B-4FEF-A260-7F06CB5F5EA0}"
 EndProject
@@ -16,6 +16,11 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeneratePage", "GeneratePage\GeneratePage.csproj", "{70B4BB2C-F30F-4406-93B6-1621D5AD7DE7}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorIcons.Sample", "BlazorIcons.Sample\BlazorIcons.Sample.csproj", "{66C58E60-9F50-4787-B1A1-261E3E9E966B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{63A0D78D-3304-4738-8233-9FF50AA9B396}"
+	ProjectSection(SolutionItems) = preProject
+		project.proj = project.proj
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

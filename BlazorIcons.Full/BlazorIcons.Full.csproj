@@ -1,23 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
-
+	<Import Project="../project.proj"/>
 	<PropertyGroup>
-		<TargetFramework>net5.0</TargetFramework>
-		<RootNamespace>BlazorIcons</RootNamespace>
-		<AssemblyVersion>1.0.0.0</AssemblyVersion>
-		<FileVersion>1.0.0.0</FileVersion>
-		<Version>1.0.0</Version>
 		<PackageId>BlazorIcons.Full</PackageId>
-		<Authors>zxyao</Authors>
-		<PackageTags>Blazor;Font Icon;BlazorIcons;</PackageTags>
-		<Company></Company>
-		<RepositoryUrl>https://github.com/zxyao145/BlazorIcons</RepositoryUrl>
-		<Description>
-			BlazorIcons.Full include all font icons of BlazorIcons
-		</Description>
 	</PropertyGroup>
+
 	<ItemGroup>
-		<PackageReference Include="BlazorIcons.Light" Version="1.0.0" />
-		<PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="5.0.4" />
-		<PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="5.0.4" />
+		<PackageReference Include="BlazorIcons.Light" Version="$(Version)" />
 	</ItemGroup>
 </Project>

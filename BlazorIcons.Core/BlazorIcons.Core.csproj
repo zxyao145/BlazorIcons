@@ -1,19 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
-
+	<Import Project="../project.proj"/>
 	<PropertyGroup>
-		<TargetFramework>net5.0</TargetFramework>
-		<RootNamespace>BlazorIcons</RootNamespace>
-		<AssemblyVersion>1.0.0.0</AssemblyVersion>
-		<FileVersion>1.0.0.0</FileVersion>
-		<Version>1.0.0</Version>
 		<PackageId>BlazorIcons.Core</PackageId>
-		<Authors>zxyao</Authors>
-		<PackageTags>Blazor;Font Icon;BlazorIcons;</PackageTags>
-		<Company></Company>
-		<RepositoryUrl>https://github.com/zxyao145/BlazorIcons</RepositoryUrl>
-		<Description>
-			a blazor Font Icon component library core, which is using IconMoon
-		</Description>
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -28,9 +16,6 @@
 		<Content Remove="wwwroot\package-lock.json" />
 	</ItemGroup>
 
-	<ItemGroup>
-		<PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="5.0.4" />
-	</ItemGroup>
 	<PropertyGroup>
 		<DefaultItemExcludes>
 			$(DefaultItemExcludes);wwwroot\node_modules\*;wwwroot\blazor-icon-font;wwwroot\blazor-icon-font.zip;wwwroot\gulpfile.js;wwwroot\package.json;
